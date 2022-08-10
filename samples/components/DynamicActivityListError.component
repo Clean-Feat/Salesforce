@@ -1,0 +1,12 @@
+<apex:component >
+     <apex:attribute name="mySobject" type="sObject" description="The sobject passed in"/>
+    <apex:slds />
+    
+    <div class="slds-notify_container slds-is-relative">
+  <div class="slds-notify slds-notify_toast slds-theme_error" role="status"> 
+      <h1>
+          Activate Activities to Show the Related Lists
+      </h1>   
+        </div>
+    </div>
+</apex:component>
