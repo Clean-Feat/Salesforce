@@ -1,6 +1,0 @@
-<apex:page controller="DynamicActivityListController">
-    <apex:includeLightning />
-    
-    <c:DynamicActivityList mySobject="{!SobjectName}" rendered="{!HasActivitiesEnabled}"/>
-    <c:DynamicActivityListError mySobject="{!SobjectName}" rendered="{!HasActivitiesEnabled == false}" />  
-</apex:page>
