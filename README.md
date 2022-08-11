@@ -1,6 +1,6 @@
 
 
-# Apex Triggers Using Test Driven Development (TDD). 
+# Apex Triggers Using Test Driven Development (TDD)
 
 Objective: If a shipping address is changed on an Account, automatically
 update the mailing address of associated contacts.
