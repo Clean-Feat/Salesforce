@@ -12,7 +12,7 @@ I use four different files when developing triggers.
 3. A test data class (TestDataFactory)
 4. A test class (AccountTriggerTest)
 
-# Prime Numbers in Apex Using Test Driven Development (TDD). 
+# Prime Numbers in Apex Using Test Driven Development (TDD)
 
 Objective: Create a method to test the primality of a number. 
 
