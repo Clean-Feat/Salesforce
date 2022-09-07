@@ -22,5 +22,15 @@ private class PrimeNumbersTest {
         boolean testResult = PrimeNumbers.isPrime(isTwo);
         system.assertEquals(true, testResult);
     }
+    
+    @isTest
+    static void isPrimeCatch(){
+        try {
+        Integer emptyInt;
+        PrimeNumbers.isPrime(emptyInt);
+        } catch (exception e){
+            
+        }
+    }
 
 }
