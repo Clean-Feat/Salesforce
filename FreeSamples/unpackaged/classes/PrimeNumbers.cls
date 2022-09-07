@@ -5,6 +5,8 @@ public class PrimeNumbers {
 
         Boolean isPrime = false;
         
+        try{
+        
         if(num ==2){
             isPrime= true;
             return isPrime;
@@ -27,10 +29,14 @@ public class PrimeNumbers {
             }
 
         }
-        return isPrime;
+       
 
     }
+       	 } catch(exception e){
+            //system.debug(e.getMessage());
+        }
+        
+         return isPrime;
     }
-    
     
 }
